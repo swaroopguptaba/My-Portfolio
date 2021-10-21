@@ -1,0 +1,123 @@
+/* Experience Section */
+
+.experience-layout{
+    background-color: #252934;
+    padding: 20px;
+  }
+  
+  .circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #04b2c9;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+  }
+  
+  .design.row .col-2 {
+    align-self: stretch;
+  }
+  
+  .design.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #04b2c9;
+    z-index: 1;
+  }
+  
+  .design.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  
+  .design.row .col-2.full::after {
+    height: 100%;
+    left: calc(48.5%);
+  }
+  
+  
+  .design.row .test.full::after {
+    height: 100%;
+    left: calc(50%);
+  }
+  
+  .design.row .col-2.top::after {
+    height: 50%;
+    left: 48.5%;
+    top: 0;
+  }
+  
+  .timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  
+  .timeline hr {
+    border-top: 3px solid #04b2c9;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .timeline .corner {
+    border: 3px solid #04b2c9;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  
+  .timeline .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  
+  .timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  
+  .timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+  
+  .exp-text{
+    color: white !important;
+    margin-top: 40px;
+    overflow: hidden;
+  }
+  
+  .exp-company{
+    font-size: 18pt;
+    color: #04b2c9;
+  }
+  
+  .exp-position{
+    font-size: 14pt;
+  }
+  
+  .exp-duration{
+    font-size: 11pt;
+  }
+  
+  .exp-desc{
+    font-size: 11pt;
+    word-wrap: break-word;
+  }
+  
+  .exp-skills{
+    margin-top: 10px; 
+    font-size: 10pt;
+  }
+  
